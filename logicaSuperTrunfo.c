@@ -28,7 +28,22 @@ int main() {
     scanf("%f", &pib1);
     printf("Digite o número de pontos turísticos da cidade 1: ");
     scanf("%d", &pontos_turisticos1);
-    
+
+    // Segunda carta
+    printf("\nDigite o estado da cidade 2: ");
+    scanf("%s", estado2);
+    printf("Digite o código da carta 2: ");
+    scanf("%d", &codigo2);
+    printf("Digite o nome da cidade 2: ");
+    scanf("%s", cidade2);
+    printf("Digite a população da cidade 2: ");
+    scanf("%d", &populacao2);
+    printf("Digite a área da cidade 2 (em km²): ");
+    scanf("%f", &area2);
+    printf("Digite o PIB da cidade 2: ");
+    scanf("%f", &pib2);
+    printf("Digite o número de pontos turísticos da cidade 2: ");
+    scanf("%d", &pontos_turisticos2);
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
