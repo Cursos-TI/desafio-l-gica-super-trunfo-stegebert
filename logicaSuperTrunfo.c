@@ -7,10 +7,28 @@
 
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
-    // Você pode utilizar o código do primeiro desafio
+    char estado1[50], cidade1[50], estado2[50], cidade2[50];
+    int codigo1, codigo2, populacao1, populacao2, pontos_turisticos1, pontos_turisticos2;
+    float area1, area2, pib1, pib2, densidade_pop1, densidade_pop2, pib_per_capita1, pib_per_capita2;
 
     
     // Cadastro das Cartas:
+    // Primeira carta
+    printf("Digite o estado da cidade 1: ");
+    scanf("%s", estado1);
+    printf("Digite o código da carta 1: ");
+    scanf("%d", &codigo1);
+    printf("Digite o nome da cidade 1: ");
+    scanf("%s", cidade1);
+    printf("Digite a população da cidade 1: ");
+    scanf("%d", &populacao1);
+    printf("Digite a área da cidade 1 (em km²): ");
+    scanf("%f", &area1);
+    printf("Digite o PIB da cidade 1: ");
+    scanf("%f", &pib1);
+    printf("Digite o número de pontos turísticos da cidade 1: ");
+    scanf("%d", &pontos_turisticos1);
+    
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
